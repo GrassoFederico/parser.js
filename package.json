@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/GrassoFederico/parser.js/issues"
   },
-  "homepage": "https://github.com/GrassoFederico/parser.js#readme"
+  "homepage": "https://github.com/GrassoFederico/parser.js#readme",
+  "devDependencies": {
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  }
 }
