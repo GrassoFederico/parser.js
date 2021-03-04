@@ -4,6 +4,7 @@
   "description": "Graph parser",
   "main": "index.js",
   "scripts": {
+    "test": "jasmine" ,
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/GrassoFederico/parser.js#readme",
   "devDependencies": {
     "html-webpack-plugin": "^5.2.0",
+    "jasmine": "^3.6.4",
     "webpack": "^5.24.3",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2",
